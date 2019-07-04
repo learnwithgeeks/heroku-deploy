@@ -6,7 +6,9 @@
     "dev": "next",
     "build": "next build",
     "start": "next start -p $PORT",
-    "heroku-postbuild": "npm run build"
+    "heroku-postbuild": "npm run build",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "engines": {
     "node": "8.x"
@@ -29,6 +31,8 @@
   "dependencies": {
     "next": "7.0.2",
     "react": "^16.0.0",
-    "react-dom": "^16.0.0"
-  }
+    "react-dom": "^16.0.0",
+    "snyk": "^1.189.0"
+  },
+  "snyk": true
 }

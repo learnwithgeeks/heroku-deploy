@@ -1,0 +1,36 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - next > webpackbar > consola > lodash:
+        patched: '2019-07-04T04:28:31.924Z'
+    - next > write-file-webpack-plugin > lodash:
+        patched: '2019-07-04T04:28:31.924Z'
+    - next > webpackbar > lodash:
+        patched: '2019-07-04T04:28:31.924Z'
+    - next > @babel/core > lodash:
+        patched: '2019-07-04T04:28:31.924Z'
+    - next > styled-jsx > babel-types > lodash:
+        patched: '2019-07-04T04:28:31.924Z'
+    - next > @babel/template > @babel/types > lodash:
+        patched: '2019-07-04T04:28:31.924Z'
+    - next > webpackbar > table > lodash:
+        patched: '2019-07-04T04:28:31.924Z'
+    - next > autodll-webpack-plugin > lodash:
+        patched: '2019-07-04T04:28:31.924Z'
+    - next > autodll-webpack-plugin > webpack-merge > lodash:
+        patched: '2019-07-04T04:28:31.924Z'
+    - next > @babel/plugin-proposal-class-properties > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-04T04:28:31.924Z'
+    - next > @babel/preset-env > @babel/plugin-transform-object-super > @babel/helper-replace-supers > @babel/types > lodash:
+        patched: '2019-07-04T04:28:31.924Z'
+    - next > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-04T04:28:31.924Z'
+    - next > @babel/preset-env > @babel/plugin-transform-object-super > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-04T04:28:31.924Z'
+    - next > @babel/preset-env > @babel/plugin-transform-parameters > @babel/helper-call-delegate > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-04T04:28:31.924Z'
+    - next > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-04T04:28:31.924Z'
