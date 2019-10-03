@@ -6,15 +6,19 @@
     "dev": "node server.js -p $PORT",
     "build": "next build",
     "heroku-postbuild": "next build",
-    "start": "node server.js -p $PORT"
+    "start": "node server.js -p $PORT",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "express": "^4.14.0",
     "next": "^4.2.3",
     "react": "^16.0.0",
-    "react-dom": "^16.0.0"
+    "react-dom": "^16.0.0",
+    "snyk": "^1.230.5"
   },
   "engines": {
     "node": "6.11.x"
-  }
+  },
+  "snyk": true
 }
